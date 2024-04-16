@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Data Science Courses{% endblock %}</title>
+    <link rel="stylesheet" href="static/css/math.css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <div class="content">
+        {% block content %}
+        <!-- Content of individual pages will go here -->
+        {% endblock %}
+    </div>
+
+    <!-- Additional JavaScript and footer content -->
+</body>
+</html>

@@ -1,0 +1,137 @@
+/* ml.css */
+
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background: linear-gradient(to right, #06bbf2, #0586dc);
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+h1 {
+    font-size: 40px; /* Adjust the font size as needed */
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+main {
+    width: 100%;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    margin: 20px;
+    overflow-y: auto; /* Add vertical scrollbar */
+    max-height: calc(100vh - 200px); /* Set max height for container */
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #06bbf2, #0586dc);
+  
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    color: white;
+
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 40%; /* Adjust this value as needed */
+}
+
+th:nth-child(2),
+td:nth-child(2),
+th:nth-child(3),
+td:nth-child(3),
+th:nth-child(4),
+td:nth-child(4) {
+    width: 20%;
+}
+
+td a {
+    text-decoration: none;
+    color: white;
+
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.quote p {
+    font-style: italic; /* Make the font italic */
+    font-weight: bold; /* Make the font bold */
+    font-size: 50px; /* Set the font size */
+    color: #f7f1f1; /* Set the text color */
+    font-style: italic; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left:40%;
+    transform: translate(-50%, -50%);
+}
+
